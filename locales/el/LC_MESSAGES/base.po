@@ -1,0 +1,23 @@
+# My App.
+# Copyright (C) 2018
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2018-01-28 16:47+0000\n"
+"PO-Revision-Date: 2018-01-28 16:48+0000\n"
+"Last-Translator: me <johndoe@example.com>\n"
+"Language-Team: Greek <yourteam@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: src/main.py:7
+msgid "Hello world"
+msgstr "Χαίρε Κόσμε"
+
+#: src/main.py:8
+msgid "This is a translatable string"
+msgstr "Αυτό είναι ένα μεταφραζόμενο κείμενο"

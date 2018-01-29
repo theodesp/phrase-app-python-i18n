@@ -1,0 +1,17 @@
+[metadata]
+name = 'python-i18n'
+version = '0.0.1'
+description = 'Example usage of python gettext module'
+author = 'Theo Despoudis'
+author_email = ''
+license = 'MIT'
+url = ''
+
+[requires]
+python_version = ['2.7', '3.5', '3.6', 'pypy', 'pypy3']
+
+[build-system]
+requires = ['setuptools', 'wheel']
+
+[tool.hatch.commands]
+prerelease = 'hatch build'
