@@ -12,6 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n;"
 
 
 #: src/main.py:7
@@ -21,3 +22,16 @@ msgstr "Χαίρε Κόσμε"
 #: src/main.py:8
 msgid "This is a translatable string"
 msgstr "Αυτό είναι ένα μεταφραζόμενο κείμενο"
+
+#, python-brace-format
+msgid "{0} Human"
+msgid_plural "{0} Humans"
+msgstr[0] "{0} 'Ατομο"
+msgstr[1] "{0} 'Ατομα"
+
+#: main.py:15
+#, python-brace-format
+msgid "I possess {0} laptop"
+msgid_plural "I possess {0} laptops"
+msgstr[0] "Κατέχω {0} υπολογιστή"
+msgstr[1] "Κατέχω {0} υπολογιστές"
